@@ -28,9 +28,11 @@ img {
 }
 .text-container {
   width: 288px;
+  height: fit-content;
   text-align: center;
   box-sizing: border-box;
   padding-inline: 16px;
+  margin: 0;
 }
 .header {
     font-size: 22px;
@@ -38,10 +40,13 @@ img {
     font-weight: 700;
     line-height: 120%;
     color: #1F314F;
+    box-sizing: border-box;
 }
 .description {
     font-size: 15px;
     font-weight: 400;
     line-height: 140%;  
     color: #68778D;
+    box-sizing: border-box;
+    margin: 0;
 }
